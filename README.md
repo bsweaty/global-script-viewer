@@ -24,7 +24,7 @@ This plugin is standalone. It doesn't need a library or framework, it's pure jav
 </body>
 ```
 ### Chrome Extenstion
-Install the extension @ [.com](.com).
+Install the extension @ [https://chrome.google.com/webstore/detail/global-script-viewer/dhekhlokpfkdafiaojgecnogmnjpekkf](https://chrome.google.com/webstore/detail/global-script-viewer/dhekhlokpfkdafiaojgecnogmnjpekkf).
 
 ### Licensed under MIT License. Use it and abuse it.
 [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
