@@ -42,11 +42,13 @@ background: #000;\
 -moz-box-shadow: 0 0 30px #888;\
 -webkit-box-shadow: 0 0 30px #888;\
 box-shadow: 0 0 30px #888;\
-background: rgba(0,0,0,0.85)\
+background: rgba(0,0,0,0.85);\
 font-family:helvetica, sans-serif;\
 }\
 #script-viewer * {\
 color:#ddd;\
+line-height:1.75em;\
+text-align:left;\
 word-wrap:break-word;\
 margin:0;\
 padding:0;\
@@ -115,6 +117,7 @@ text-align:center;\
 border-bottom: 1px solid #666;\
 background:#000;\
 height:15%;\
+padding-left:15px;\
 }\
 #script-info h2 {\
 font-size:30px;\
@@ -368,4 +371,3 @@ font-weight:800;\
 	updateWindow();
 
 })();
-
