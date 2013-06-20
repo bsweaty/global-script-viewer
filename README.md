@@ -21,7 +21,7 @@ This plugin is standalone. It doesn't need a library or framework, it's pure jav
 	<script src="path/to/scripts/global-script-viewer.min.js"></script>
 </head>
 <body>
-</body?
+</body>
 ```
 ### Chrome Extenstion
 Install the extension @ [.com](.com).
