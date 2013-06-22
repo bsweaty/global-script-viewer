@@ -1,0 +1,99 @@
+#script-viewer {
+	margin:0;
+	display: block;
+	color: #ddd;
+	z-index: 99998;
+	overflow-y: scroll;
+	background: #000;
+	background: rgba(0,0,0,0.85);
+	font-family:helvetica, sans-serif;
+}
+#script-viewer * {
+	color:#ddd;
+	line-height:1.75em;
+	text-align:left;
+	word-wrap:break-word;
+	margin:0;
+	padding:0;
+	font-family:helvetica, sans-serif;
+}
+#script-viewer #script-lists {
+	display:block;
+}
+#script-viewer ul {
+	padding:0;
+	margin:0 0 15px 0;
+	border-bottom:1px solid #666;
+}
+#script-viewer ul li {
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	display:block;
+}
+#script-viewer ul li div {
+	padding:5px 5px 5px 10px;
+	margin-bottom:10px;
+}
+#script-viewer ul li.file div h3{
+	font-size:15px;
+	color:#6f6;
+}
+#script-viewer ul li.inline div h3{
+	font-size:15px;
+	color:#f6c;
+}
+#script-viewer ul li.removed div h3{
+	
+}
+#script-viewer ul li div h3 span {
+	font-weight:100;
+	color:#ddd;
+}
+#script-viewer ul li div p {
+	font-size:10px;
+}
+#script-viewer ul li.inline div p {
+	color: #ffc;
+}
+#script-viewer ul li.inline div p span {
+	color:#ddd;
+}
+#script-viewer ul li div p span {
+	color:#ccc;
+}
+#script-viewer ul a {
+	color:#6cf;
+}
+#script-viewer ul a:hover {
+	color:#6ff;
+}
+#script-viewer ul h2 {
+	text-align:center;
+	font-size:21px;
+	padding: 10px 0;
+}
+#script-info {
+	text-align:center;
+	border-bottom: 1px solid #666;
+	background:#000;
+	height:125px;
+	padding-left:15px;
+}
+#script-info h2 {
+	font-size:30px;
+	font-weight:100;
+	padding: 20px 0 0 0;
+}
+#script-info h3 {
+	font-size:14px;
+	font-weight:100;
+}
+#script-info h3 span {
+	color:#0ff;
+	font-weight:800;
+}
+#script-info h2 span {
+	color:#f0f;
+	font-weight:800;
+}
