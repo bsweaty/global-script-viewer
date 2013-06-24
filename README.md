@@ -1,4 +1,4 @@
-#globalScriptViewer 1.0
+#Global JavaScript Viewer 1.0.1
 
 ##All of the Javascript on your page, *simplified*.
 
