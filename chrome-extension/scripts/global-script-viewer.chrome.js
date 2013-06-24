@@ -190,8 +190,10 @@
 
 			if((jStatus === 'DOM Ready' || jStatus === 'Document Loading' || jStatus === 'Window Loaded') && (lastLength !== allScripts.length || lastAdded !== insertedScripts.length || lastRemoved !== removedScripts.length)){
 				var nodez = '';
-				
+
 				nodez = wrapper.innerHTML;
+
+				console.log("should've sent");
 
 				chrome.runtime.sendMessage({attempt : "new", newScripts: nodez}, function(response) {
 

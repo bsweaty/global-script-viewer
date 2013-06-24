@@ -5,8 +5,20 @@
 	z-index: 99998;
 	overflow-y: scroll;
 	background: #000;
-	background: rgba(0,0,0,0.85);
+	background: rgba(0,0,0,0.90);
 	font-family:helvetica, sans-serif;
+}
+#script-viewer a{
+	color:#f0f;
+	text-decoration: underline;
+}
+#script-viewer a:hover, #script-viewer a:active{
+	color:#9f0;
+	font-style:italic;
+}
+#script-viewer a:visited {
+	color:#f03;
+	text-decoration: line-through;
 }
 #script-viewer * {
 	color:#ddd;
@@ -81,12 +93,12 @@
 	padding-left:15px;
 }
 #script-info h2 {
-	font-size:30px;
+	font-size:26px;
 	font-weight:100;
-	padding: 20px 0 0 0;
+	padding: 15px 0 0 0;
 }
 #script-info h3 {
-	font-size:14px;
+	font-size:16px;
 	font-weight:100;
 }
 #script-info h3 span {
@@ -96,4 +108,33 @@
 #script-info h2 span {
 	color:#f0f;
 	font-weight:800;
+}
+#loading * {
+	text-align: center;
+	font-weight:100;
+}
+#loading {
+	margin:125px 25px 25px 25px;
+	padding:125px 0 0 0;
+	background:url(../icons/b.sweat.128.png) no-repeat top center;
+}
+#loading h1 {
+	font-size:28px;
+}
+#loading h1 span {
+	font-style:italic;
+	font-weight:800;
+	color:#6f6;
+}
+#loading h2 {
+	font-size:18px;
+	margin-bottom:50px;
+}
+#loading h2 span {
+	font-style:italic;
+	color:#0ff;
+}
+#loading p {
+	font-size:13px;
+	margin:10px 0;
 }
