@@ -2,6 +2,8 @@
 
 ##All of the Javascript on your page, *simplified*.
 
+### It's the ultimate plugin for viewing and breaking down the JavaScript on your website.
+
 ### Why should I use this script viewer?
 
 * Overview of the status of JS on every page.
