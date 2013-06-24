@@ -13,12 +13,10 @@ chrome.runtime.onMessage.addListener(
 		msgNumber += 1;
 
 		if (request.attempt === "received"){
-			console.log('receiving');
 			storeData = request.updateScripts;
 			document.body.innerHTML = storeData;
 			sendResponse({nodesReceived: true});
 		} else if(request.loading === true){
-			console.log('loading');
 			document.body.innerHTML = storeLoading;
 			sendResponse({standBy: true});
 		}
