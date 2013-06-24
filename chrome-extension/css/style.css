@@ -89,8 +89,8 @@
 	text-align:center;
 	border-bottom: 1px solid #666;
 	background:#000;
-	height:125px;
-	padding-left:15px;
+	height:auto;
+	padding:0 15px 15px 15px;
 }
 #script-info h2 {
 	font-size:26px;
