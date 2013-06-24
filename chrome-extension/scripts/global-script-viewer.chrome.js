@@ -89,7 +89,6 @@
 				}
 
 				if(allScripts[i].src){
-					
 					var fileName = (allScripts[i].src.match(/[^/]+$/g) !== null) ? (allScripts[i].src.match(/[^/]+$/g)) : (allScripts[i].src),
 						trim = (fileName[0].length > 50) ? (fileName[0].substr(0,50) + '...') : (fileName[0]),
 						scriptUrl = allScripts[i].src,
@@ -192,8 +191,6 @@
 				var nodez = '';
 
 				nodez = wrapper.innerHTML;
-
-				console.log("should've sent");
 
 				chrome.runtime.sendMessage({attempt : "new", newScripts: nodez}, function(response) {
 
